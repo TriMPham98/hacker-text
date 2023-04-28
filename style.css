@@ -1,9 +1,18 @@
 body {
     background-color: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
 }
 
 h1 {
   color: white;
-  font-size: 5 rem;
+  font-size: 5rem;
   font-family: "Space Mono", monospace;
 }
